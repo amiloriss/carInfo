@@ -1,0 +1,24 @@
+@media all and(max-width: 768px) {
+  .searching-icon {
+    font-size: 17px !important;
+  }
+  .searching {
+    font-size: 12px !important;
+    width: 170px !important;
+  }
+}
+
+@media all and(max-width:496px) {
+  .searching-icon {
+    display: none;
+  }
+  .searching {
+    border: 0 !important;
+    background-color: #333a41 !important;
+    color: #fff !important;
+
+    &::placeholder {
+      color: #fff !important;
+    }
+  }
+}

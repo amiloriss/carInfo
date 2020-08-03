@@ -1,0 +1,11 @@
+@media all and(max-width: 768px) {
+  .title-website {
+    font-size: 20px;
+  }
+}
+
+@media all and(max-width: 496px) {
+  .header {
+    flex-direction: column;
+  }
+}

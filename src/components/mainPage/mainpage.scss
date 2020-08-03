@@ -1,0 +1,17 @@
+@media all and(max-width: 768px) {
+  .greeting {
+    font-size: 22px;
+  }
+  .sub-greeting {
+    font-size: 21px;
+  }
+}
+
+@media all and(max-width: 496px) {
+  .greeting {
+    font-size: 18px;
+  }
+  .sub-greeting {
+    font-size: 17px;
+  }
+}
